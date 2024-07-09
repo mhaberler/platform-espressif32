@@ -1,5 +1,12 @@
 # Espressif 32: development platform for [PlatformIO](https://platformio.org)
 
+> [!NOTE]  
+> This repository brings platform-replacement URL that can be used to get newer Arduino for PlatformIO.
+> My intention was to create one place for platform dependency for all ksIotFrameworkLib based projects.
+>
+> Some packages come from Tasmota, many thanks to [Jason2866](https://github.com/Jason2866) for sharing them.
+> Original repository can be found here: [tasmota/platform-espressif325](https://github.com/tasmota/platform-espressif325).
+
 [![Build Status](https://github.com/platformio/platform-espressif32/workflows/Examples/badge.svg)](https://github.com/platformio/platform-espressif32/actions)
 
 ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF balun, power amplifier, low-noise receive amplifier, filters, and power management modules.
@@ -35,5 +42,4 @@ board = ...
 ```
 
 # Configuration
-
 Please navigate to [documentation](https://docs.platformio.org/page/platforms/espressif32.html).
