@@ -5,7 +5,7 @@
 > My intention was to create one place for platform dependency for all ksIotFrameworkLib based projects.
 >
 > Some packages come from Tasmota, many thanks to [Jason2866](https://github.com/Jason2866) for sharing them.
-> Original repository can be found here: [tasmota/platform-espressif325](https://github.com/tasmota/platform-espressif325).
+> Original repository can be found here: [tasmota/platform-espressif32](https://github.com/tasmota/platform-espressif32).
 
 [![Build Status](https://github.com/platformio/platform-espressif32/workflows/Examples/badge.svg)](https://github.com/platformio/platform-espressif32/actions)
 
