@@ -140,9 +140,9 @@ class Espressif32Platform(PlatformBase):
                 ] = "13.2.0+20230928"
 
         if "arduino" in frameworks:
-            # Disable standalone GDB packages for Arduino and Arduino/IDF projects
-            for gdb_package in ("tool-xtensa-esp-elf-gdb", "tool-riscv32-esp-elf-gdb"):
-                self.packages.pop(gdb_package, None)
+            # # Disable standalone GDB packages for Arduino and Arduino/IDF projects
+            # for gdb_package in ("tool-xtensa-esp-elf-gdb", "tool-riscv32-esp-elf-gdb"):
+            #     self.packages.pop(gdb_package, None)
 
             for available_mcu in ("esp32", "esp32s2", "esp32s3"):
                 if available_mcu == mcu:

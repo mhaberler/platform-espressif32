@@ -93,7 +93,7 @@
     },
     "tool-openocd-esp32": {
       "type": "debugger",
-      "optional": true,
+      "optional": false,
       "owner": "platformio",
       "version": "~2.1100.0"
     },
