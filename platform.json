@@ -70,13 +70,13 @@
     },
     "tool-xtensa-esp-elf-gdb": {
       "type": "debugger",
-      "optional": true,
+      "optional": false,
       "owner": "espressif",
       "version": "~12.1.0"
     },
     "tool-riscv32-esp-elf-gdb": {
       "type": "debugger",
-      "optional": true,
+      "optional": false,
       "owner": "espressif",
       "version": "~12.1.0"
     },
